@@ -12,7 +12,8 @@
 
 
 ### Notes:
-- 数据集CIFAR-10被置于项目之外，以便独立的管理，在本地运行时可以考虑更改：（令download=True）
+- 数据集CIFAR-10被置于项目之外，以便独立的管理
+- 在本地运行时可以考虑更改：（令download=True）
 ```python
 trainset = torchvision.datasets.CIFAR10(root=dataset_path, train=True, download=False, transform=transform)
 ```

@@ -22,6 +22,7 @@ def draw(values, title='Loss Function', xlabel='Epochs', ylabel='Loss'):
     # 设置X轴的刻度，使其每个单位长度为1
     plt.xticks(range(len(values)))
     plt.show()  # 显示图表
+    # plt.savefig("loss_function.png") 保存损失函数图像
 
 
 # 定义用于分类的神经网络
