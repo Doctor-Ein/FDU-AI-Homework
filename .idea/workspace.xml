@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="基本网络框架/数据集独立 命中率59%&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Aoya Einstein &lt;liaoxucheng@sjtu.edu.cn&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Doctor-Ein"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Doctor-Ein/FDU-AI-Homework.git",
+    "accountId": "d69f7b22-a457-4a9d-9918-6553b1fc8df0"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nFNHCWraTyI9Ruo6K0c5o7BXj6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.request.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/xlx/PycharmProjects/FDU-AI-Homework/dataset",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="" />
+      <created>1728564773142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728564773142</updated>
+      <workItem from="1728564778104" duration="2224000" />
+    </task>
+    <task id="LOCAL-00001" summary="基本网络架构完成，命中率59%">
+      <option name="closed" value="true" />
+      <created>1728565153321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728565153321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="手动下载数据集完成">
+      <option name="closed" value="true" />
+      <created>1728573171843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728573171843</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数据集下载完成&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728573321872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728573321872</updated>
+    </task>
+    <task id="LOCAL-00004" summary="数据集下载完成&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728577215959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577215959</updated>
+    </task>
+    <task id="LOCAL-00005" summary="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728578183423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728578183423</updated>
+    </task>
+    <task id="LOCAL-00006" summary="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728580175605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728580175605</updated>
+    </task>
+    <task id="LOCAL-00007" summary="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728580459605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728580459605</updated>
+    </task>
+    <task id="LOCAL-00008" summary="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728580901334</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728580901334</updated>
+    </task>
+    <task id="LOCAL-00009" summary="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728581548898</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728581548898</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add cifar-10-python.tar.gz to .gitignore">
+      <option name="closed" value="true" />
+      <created>1728581994679</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728581994679</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add cifar-10-python.tar.gz to .gitignore&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728582111602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728582111602</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Remove cifar-10-batches-py from tracking">
+      <option name="closed" value="true" />
+      <created>1728582607919</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728582607919</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update workspace configuration">
+      <option name="closed" value="true" />
+      <created>1728583465293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728583465293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update workspace configuration&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728583552866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728583552866</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Wok终于搞定他喵的SSL证书了&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728586239625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728586239625</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Remove dataset directory from tracking">
+      <option name="closed" value="true" />
+      <created>1728587123117</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728587123117</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Remove dataset directory from tracking&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728587172831</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728587172831</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Remove dataset directory from tracking&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728587994145</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728587994145</updated>
+    </task>
+    <task id="LOCAL-00019" summary="将数据集独立于项目之外&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728588501286</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728588501286</updated>
+    </task>
+    <task id="LOCAL-00020" summary="基本网络框架/数据集独立 命中率59%&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728589135471</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728589135471</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="基本网络架构完成，命中率59%" />
+    <MESSAGE value="手动下载数据集完成" />
+    <MESSAGE value="手动下载数据集完成&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="数据集下载完成&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="大文件分割和忽略&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="Add cifar-10-python.tar.gz to .gitignore" />
+    <MESSAGE value="Add cifar-10-python.tar.gz to .gitignore&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="Remove cifar-10-batches-py from tracking" />
+    <MESSAGE value="Update workspace configuration" />
+    <MESSAGE value="Update workspace configuration&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="Wok终于搞定他喵的SSL证书了&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="Remove dataset directory from tracking" />
+    <MESSAGE value="Remove dataset directory from tracking&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="将数据集独立于项目之外&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="基本网络框架/数据集独立 命中率59%&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本网络框架/数据集独立 命中率59%&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FDU_AI_Homework$request.coverage" NAME="request 覆盖结果" MODIFIED="1728567482667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib" />
+    <SUITE FILE_PATH="coverage/FDU_AI_Homework$main.coverage" NAME="main 覆盖结果" MODIFIED="1728567489720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
