@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="补充注解和README文档&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +32,12 @@
     &quot;assignee&quot;: &quot;Doctor-Ein&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Doctor-Ein/FDU-AI-Homework.git&quot;,
-    &quot;accountId&quot;: &quot;d69f7b22-a457-4a9d-9918-6553b1fc8df0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Doctor-Ein/FDU-AI-Homework.git",
+    "accountId": "d69f7b22-a457-4a9d-9918-6553b1fc8df0"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -54,56 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python download=True.executor&quot;: &quot;Run&quot;,
-    &quot;Python.request.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xlx/PycharmProjects/FDU-AI-Homework/dataset&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion.SSH&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.python download=True.executor": "Run",
+    "Python.request.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "L2-feature",
+    "last_opened_file_path": "/Users/xlx/PycharmProjects/FDU-AI-Homework/dataset",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Subversion.SSH",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="python download=True" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FDU-AI-Homework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="download=True" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.python download=True" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -319,7 +288,79 @@
       <option name="project" value="LOCAL" />
       <updated>1728590768349</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="忽略个人偏好文件，避免频繁的合并冲突&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728590980313</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728590980313</updated>
+    </task>
+    <task id="LOCAL-00026" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728652930336</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728652930336</updated>
+    </task>
+    <task id="LOCAL-00027" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728653786497</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728653786497</updated>
+    </task>
+    <task id="LOCAL-00028" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728656166214</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728656166214</updated>
+    </task>
+    <task id="LOCAL-00029" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728656733327</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728656733327</updated>
+    </task>
+    <task id="LOCAL-00030" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728656919858</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728656919858</updated>
+    </task>
+    <task id="LOCAL-00031" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728657308184</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728657308184</updated>
+    </task>
+    <task id="LOCAL-00032" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728659091863</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728659091863</updated>
+    </task>
+    <task id="LOCAL-00033" summary="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728659375127</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728659375127</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +398,10 @@
     <MESSAGE value="将数据集独立于项目之外&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <MESSAGE value="基本网络框架/数据集独立 命中率59%&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <MESSAGE value="补充注解和README文档&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充注解和README文档&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="忽略个人偏好文件，避免频繁的合并冲突&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
