@@ -21,9 +21,7 @@ def draw(values, title='Loss Function', xlabel='Epochs', ylabel='Loss'):
 	# 设置X轴的刻度，使其每个单位长度为1
 	plt.xticks(range(len(values)))
 	plt.show()  # 显示图表
-
-
-# plt.savefig("loss_function.png") 保存损失函数图像
+	plt.savefig("loss_function.png")  # 保存损失函数图像
 
 
 # 定义用于分类的神经网络
@@ -152,7 +150,8 @@ if __name__ == '__main__':
 
 	# 模型的训练
 	criterion = nn.CrossEntropyLoss()  # 交叉熵损失函数
-	optimizer = optim.SGD(dropout_net.parameters(), lr=0.001, momentum=0.9, weight_decay=0.001)  # 使用SGD（随z机梯度下降）优化/加入L2正则项
+	optimizer = optim.SGD(dropout_net.parameters(), lr=0.001, momentum=0.9,
+	                      weight_decay=0.001)  # 使用SGD（随z机梯度下降）优化/加入L2正则项
 	num_epochs = 5  # 训练 5 个 epoch
 
 	train(trainloader, dropout_net, num_epochs, criterion, optimizer, save_path='TrainDataCollection')

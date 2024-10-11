@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <change afterPath="$PROJECT_DIR$/hyperparameter_tuning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +37,12 @@
     &quot;assignee&quot;: &quot;Doctor-Ein&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Doctor-Ein/FDU-AI-Homework.git",
-    "accountId": "d69f7b22-a457-4a9d-9918-6553b1fc8df0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Doctor-Ein/FDU-AI-Homework.git&quot;,
+    &quot;accountId&quot;: &quot;d69f7b22-a457-4a9d-9918-6553b1fc8df0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -58,14 +63,14 @@
     "Python.python download=True.executor": "Run",
     "Python.request.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "L2-feature",
+    "git-widget-placeholder": "AutoParameter",
     "last_opened_file_path": "/Users/xlx/PycharmProjects/FDU-AI-Homework/dataset",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Subversion.SSH",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
