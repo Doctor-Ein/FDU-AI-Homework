@@ -22,6 +22,7 @@ if __name__ == '__main__':
 		train(trainloader, dropout_net, num_epoch, criterion, optimizer, save_path='TrainDataCollection')
 		accuracy = predict(testloader, dropout_net)
 		results.append((dropout, lr, momentum, b_size, num_epoch, accuracy))
+	# TODO：实际跑程序时需要注意sleep休息，同时记得监控计算机相关硬件占用信息，确保程序和设备安全
 
 	# 排序并输出结果
 	results.sort(key=lambda x: x[-1], reverse=True)
