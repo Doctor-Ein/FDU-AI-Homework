@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
-      <change afterPath="$PROJECT_DIR$/hyperparameter_tuning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +54,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.demo.executor": "Run",
+    "Python.hyperparameter_tuning.executor": "Run",
     "Python.main.executor": "Run",
     "Python.python download=True.executor": "Run",
     "Python.request.executor": "Run",
@@ -365,7 +362,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728659375127</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="自动超参数调整">
+      <option name="closed" value="true" />
+      <created>1728662737040</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728662737040</updated>
+    </task>
+    <task id="LOCAL-00035" summary="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹">
+      <option name="closed" value="true" />
+      <created>1728666374095</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728666374095</updated>
+    </task>
+    <task id="LOCAL-00036" summary="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728666654699</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1728666654699</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +404,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -406,7 +428,10 @@
     <MESSAGE value="忽略个人偏好文件，避免频繁的合并冲突&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <MESSAGE value="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <MESSAGE value="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="L2正则化/Dropout正则化添加&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="自动超参数调整" />
+    <MESSAGE value="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹" />
+    <MESSAGE value="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
