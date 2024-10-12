@@ -3,6 +3,10 @@
 ### author: TheEin
 ### collaborators: sbx，ChatGPT
 
+# How to run this program
+- demo.py 是演示效果的脚本，运行它就足以应付作业了
+- hyperparameter_tuning.py是自动交叉对比法得到最优超参数的脚本，首先运行它（可能会跑得有点久）
+
 ### Tasks:
 - Task1: 绘制损失函数的图像/理解损失函数的意义✅
   - 思考问题1:在训练集上损失得越少，模型就训练得越好吗？
