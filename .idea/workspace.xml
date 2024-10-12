@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+    <list default="true" id="12e4c6ca-e394-4eb7-8c5d-3869b0c947ed" name="更改" comment="README.md update &#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hyperparameter_tuning.py" beforeDir="false" afterPath="$PROJECT_DIR$/hyperparameter_tuning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -390,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728666654699</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="README.md update &#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;">
+      <option name="closed" value="true" />
+      <created>1728670615180</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1728670615180</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +442,8 @@
     <MESSAGE value="自动超参数调整" />
     <MESSAGE value="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹" />
     <MESSAGE value="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数模块独立，超参数交叉对比脚本&#10;demo项目命中率55%（默认超参数状态）&#10;希望最优的超参数组合能把命中率拉到80%以上啊求求惹&#10;&#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <MESSAGE value="README.md update &#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md update &#10;Signed-off-by: xlx &lt;xlx@sjtu.edu.cn&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
