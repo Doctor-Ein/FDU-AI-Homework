@@ -105,4 +105,4 @@ optimizer = optim.SGD(dropout_net.parameters(), lr=lr, momentum=momentum, weight
 # 训练和评估
 train(trainloader, dropout_net, num_epochs, criterion, optimizer)
 accuracy = predict(testloader, dropout_net)
-print("%.3f %", accuracy)
+print("%.1f %", accuracy)
