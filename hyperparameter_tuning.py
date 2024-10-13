@@ -1,0 +1,44 @@
+from itertools import product
+from time import sleep
+
+from torch import optim
+
+from model import device, Dropout_Net, train, predict, criterion, trainloader, testloader
+
+if __name__ == '__main__':
+    # 超参数组合
+    dropouts = [0.2, 0.3, 0.4, 0.5]
+    learning_rates = [0.001, 0.01]
+    momentums = [0.8, 0.9, 0.99]
+    batch_sizes = [4, 8]
+    num_epochs = [5, 6, 7]
+    weight_decays = [0, 0.001, 0.005, 0.01]
+    results = []
+
+    i = 0
+    with open("Outputs.txt", "w") as file:
+        file.write("Hyperparameter_tuning: \n")
+    for dropout, lr, momentum, b_size, num_epoch, weight_decay in product(dropouts, learning_rates, momentums,
+                                                                          batch_sizes, num_epochs, weight_decays):
+        print(
+            f'''Testing with dropout={dropout}, lr={lr}, momentum={momentum}, batch_size={b_size}, num_epochs={num_epoch}, weight_decay={weight_decay}''')
+        dropout_net = Dropout_Net(dropout).to(device)  # 假设你的模型类名为 Dropout_Net
+        optimizer = optim.SGD(dropout_net.parameters(), lr=lr, momentum=momentum, weight_decay=weight_decay)
+        train(trainloader, dropout_net, num_epoch, criterion, optimizer, save_path='TrainDataCollection')
+        accuracy = predict(testloader, dropout_net)
+        results.append((dropout, lr, momentum, b_size, num_epoch, weight_decay, accuracy))
+        result = results[-1]
+        i += 1
+        with open("Outputs.txt", "a") as file:
+            file.write("num_params:" + str(
+                i) + f' ,Dropout: {result[0]}, LR: {result[1]}, Momentum: {result[2]}, Batch Size: {result[3]}, Num Epochs: {result[4]}, Weight Decay: {result[5]}, Accuracy: {result[6]:.1f}%\n')
+        sleep(60)  # 请让电脑休息一分钟，也请记得监控计算机资源占情况，确保程序和设备安全
+
+    # 排序并输出结果
+    results.sort(key=lambda x: x[-1], reverse=True)
+    for result in results:
+        with open("Outputs.txt", "a") as file:
+            file.write(
+                f'Dropout: {result[0]}, LR: {result[1]}, Momentum: {result[2]}, Batch Size: {result[3]}, Num Epochs: {result[4]}, Weight Decay: {result[5]}, Accuracy: {result[6]:.1f}%\n')
+# TODO：最佳超参数组合的自动写入
+# TODO：多线程自动搜索

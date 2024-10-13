@@ -1,0 +1,14 @@
+# 忽略整个 .idea 文件夹
+.idea/
+
+# 但保留项目通用的设置文件
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/runConfigurations/
+
+/loss_function.png
+/Outputs.txt
+.dataset/
