@@ -1,6 +1,6 @@
 import time
 
-from model import BEST_PARAMS, train, predict, criterion, trainloader, testloader, dropout_net, optimizer
+from extreme_model import BEST_PARAMS, train, predict, criterion, trainloader, testloader, dropout_net, optimizer
 
 # safe launch by using main as the entrance of this program
 if __name__ == '__main__':
@@ -8,7 +8,7 @@ if __name__ == '__main__':
     # 训练模型
     print('Start Training')
     start_time = time.time()
-    train(trainloader, dropout_net, BEST_PARAMS['num_epoch'], criterion, optimizer, save_path='TrainDataCollection')
+    loss_values = train(trainloader, dropout_net, BEST_PARAMS['num_epoch'], criterion, optimizer)
     print('Finished Training')
     # 在测试集上预测/predict返回其命中率
     print('测试集中的准确率为: %d %%' % (predict(testloader, dropout_net)))
