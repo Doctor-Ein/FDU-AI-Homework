@@ -16,11 +16,12 @@ torch.backends.cudnn.benchmark = True
 
 # 定义最佳超参数组合
 BEST_PARAMS = {
-    'dropout_prob': 0.2,
-    'learning_rate': 0.01,
-    'momentum': 0.9,
-    'batch_size': 64,
-    'num_epoch': 8,
+    'dropout_prob': 0.35,
+    'learning_rate': 0.002,
+    'momentum': 0.94,
+    'batch_size': 96,
+    'num_epoch': 26,
+    'weight_decay': 0.001
 }
 
 

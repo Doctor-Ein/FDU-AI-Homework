@@ -1,0 +1,12 @@
+num_params:1 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 80, Num Epochs: 20, Weight Decay: 0.001, Accuracy: 65.6%
+num_params:2 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 80, Num Epochs: 24, Weight Decay: 0.001, Accuracy: 65.2%
+num_params:3 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 80, Num Epochs: 28, Weight Decay: 0.001, Accuracy: 66.2%
+num_params:4 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 80, Num Epochs: 32, Weight Decay: 0.001, Accuracy: 66.9%
+num_params:5 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 96, Num Epochs: 20, Weight Decay: 0.001, Accuracy: 63.7%
+num_params:6 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 96, Num Epochs: 24, Weight Decay: 0.001, Accuracy: 64.8%
+num_params:7 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 96, Num Epochs: 28, Weight Decay: 0.001, Accuracy: 65.4%
+num_params:8 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 96, Num Epochs: 32, Weight Decay: 0.001, Accuracy: 66.8%
+num_params:9 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 112, Num Epochs: 20, Weight Decay: 0.001, Accuracy: 65.6%
+num_params:10 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 112, Num Epochs: 24, Weight Decay: 0.001, Accuracy: 65.8%
+num_params:11 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 112, Num Epochs: 28, Weight Decay: 0.001, Accuracy: 66.0%
+num_params:12 ,Dropout: 0.35, LR: 0.002, Momentum: 0.94, Batch Size: 112, Num Epochs: 32, Weight Decay: 0.001, Accuracy: 64.9%
